@@ -28,13 +28,9 @@
 
 // Question 4 🌶️🌶️🌶️: Write a for loop in JavaScript that iterates through an array of numbers and 
 // calculates their sum.
-    // const sumOfNumbers = [10, 100, 1000]
-    // // function counter(param1) {
-    //     // let sum = 0
-    //     for (let index = 0; index < sumOfNumbers; index++) {
-    //              console.log(sumOfNumbers += index);
- 
-    //     }
-//  }
-//  counter(10)
+    const sumOfNumbers = [10+100+1000]
+    for (let index = 0; index <= 5; index++) {
+        console.log (sumOfNumbers)
+        
+    }
         
