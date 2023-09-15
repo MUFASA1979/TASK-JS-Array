@@ -35,7 +35,5 @@
 
 // // **Question 10 [🌶️🌶️]:** Write JavaScript code to check if the element "banana" exists in the array **`myArray`** 
 // // and return **`true`** if it does, otherwise, return **`false`**.
-//     myArray.push ("Banana");
-//     console.log (myArray);
     console.log (myArray.includes ("Banana"));
 
