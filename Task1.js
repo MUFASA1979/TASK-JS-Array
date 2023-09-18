@@ -1,9 +1,9 @@
 // **Question 1:** Write JavaScript code to declare an empty array named **`myArray`**.
-    // Answer: const myArray = []
-    // Answer: console.log (myArray);
+    const myArray = []
+    Answer: console.log (myArray);
 
 // // **Question 2:** In JavaScript, how do you add the elements "apple," "banana," and "cherry" to the end of the array **`myArray`**?
-    const myArray = ["Apple", "Banana", "Cherry"]
+    myArray.push ("Apple", "Banana", "Cherry")
     console.log (myArray);
 
 // // **Question 3:** Write JavaScript code to print the first element of the array **`myArray`**.
@@ -26,7 +26,10 @@
     console.log (numbers);    
 
 // // **Question 8:** Write a JavaScript function that takes an array as a parameter and returns its length.
-    console.log(numbers.length);
+    function newArray (param){   
+    console.log(param.length);
+}
+    newArray(numbers)
 
 // // **Question 9 [🌶️]:** Given the array **`const temperatures = [72, 68, 74, 80, 76]`**, write JavaScript code to find the highest 
 // // temperature (the maximum value) in the array.

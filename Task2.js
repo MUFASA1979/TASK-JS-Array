@@ -14,12 +14,13 @@
 }
 
 // Question 3: Write a while loop in JavaScript that calculates the sum of all integers from 1 to 100.
-  const numbers = parseInt (100)
+  const numbers = 100
     let sum = 0, index = 1
     while (index <= numbers) {
         sum += index
         index ++
         console.log (sum);
+
         //    let sum = 0    
         // for (let index = 1; index <= numbers; index++) {
         //     console.log (sum += index);;
@@ -28,9 +29,15 @@
 
 // Question 4 🌶️🌶️🌶️: Write a for loop in JavaScript that iterates through an array of numbers and 
 // calculates their sum.
-    const sumOfNumbers = [10+100+1000]
-    for (let index = 0; index <= 5; index++) {
-        console.log (sumOfNumbers)
-        
+function sum1(arr){
+    total=0;
+    for (counter = 0; counter < arr.length; counter++) {
+        total += arr[counter];
     }
+    return total;
+    
+}
+const arr = [1,2,3,4];
+const totalSum = sum1(arr);
+console.log (totalSum)
         
