@@ -19,18 +19,16 @@
     while (index <= numbers) {
         sum += index
         index ++
-        console.log (sum);
-
         //    let sum = 0    
         // for (let index = 1; index <= numbers; index++) {
-        //     console.log (sum += index);;
-            
+        //     console.log (sum += index);;    
         }
+    console.log (sum);
 
 // Question 4 🌶️🌶️🌶️: Write a for loop in JavaScript that iterates through an array of numbers and 
 // calculates their sum.
 function sum1(arr){
-    total=0;
+    let total=0;
     for (counter = 0; counter < arr.length; counter++) {
         total += arr[counter];
     }
